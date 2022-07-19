@@ -3,7 +3,7 @@ const routes = require('./routes');
 
 const app = express();
 
-// goes to Heroku uses their own port
+// Heroku uses their own port 3001 will not work
 const PORT = process.env.PORT || 3001;
 
 //middlewares
